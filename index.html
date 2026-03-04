@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorteDeLuz | Monitoreo de Energía Inteligente</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="CorteDeLuz (PowerMonitor) es la aplicación líder en Android para monitorear el estado de tu red eléctrica en tiempo real, con alertas instantáneas por SMS y Telegram.">
+    <meta name="keywords"
+        content="corte de luz, cortes de energia, monitor electrico, alerta SMS luz, bot telegram estado electrico, powermonitor, app corte de luz">
+    <meta name="author" content="CorteDeLuz App">
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="CorteDeLuz | Monitoreo de Energía Inteligente">
+    <meta property="og:description"
+        content="Recibe notificaciones instantáneas de cortes y retornos de energía eléctrica en tu teléfono.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-bolt"></i> CorteDeLuz
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li class="nav-item"><a href="#caracteristicas" class="nav-link">Características</a></li>
+                <li class="nav-item"><a href="#ventajas" class="nav-link">Ventajas</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <h1 class="hero-title">Tu tranquilidad,<br><span>siempre conectada</span></h1>
+                <p class="hero-description">
+                    Monitorea el estado de la energía eléctrica en tiempo real. Recibe notificaciones instantáneas por
+                    SMS, Telegram y llamadas telefónicas cuando la luz se corta o vuelve.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#caracteristicas" class="btn btn-primary">Descubrir más <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contacto" class="btn btn-secondary">Contactar <i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="app-mockup">
+                    <div class="mockup-screen">
+                        <i class="fa-solid fa-bolt mockup-icon"></i>
+                        <h3>PowerMonitor</h3>
+                        <div class="mockup-status active">Servicio Activo</div>
+                        <div class="mockup-alert">
+                            <i class="fa-solid fa-bell"></i> SMS/Telegram Configurado
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section" id="caracteristicas">
+            <div class="section-title">
+                <h2>Capacidades de la Aplicación</h2>
+                <p>Diseñada para mantenerte informado sobre el estado de tu red eléctrica</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-comment-sms"></i></div>
+                    <h3>Alertas por SMS</h3>
+                    <p>Notificaciones SMS configurables de corte y retorno de energía sin depender de Internet en el
+                        dispositivo receptor.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-brands fa-telegram"></i></div>
+                    <h3>Bot de Telegram</h3>
+                    <p>Integración completa con Telegram. Recibe alertas y consulta el estado eléctrico enviando el
+                        comando <code>/estado-luz</code>.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <h3>Llamadas Telefónicas</h3>
+                    <p>Configura llamadas de alerta que no pasarán desapercibidas ante cortes de energía durante la
+                        noche o en momentos críticos.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <h3>Ejecución en Background</h3>
+                    <p>La aplicación funciona silenciosamente de fondo, asegurando que nunca pierdas un evento
+                        importante de energía.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages Section -->
+        <section class="advantages section" id="ventajas">
+            <div class="advantages-container">
+                <div class="advantages-text">
+                    <h2>¿Por qué elegir CorteDeLuz?</h2>
+                    <p class="advantages-subtitle">La solución robusta y confiable para tu entorno hogareño o
+                        industrial.</p>
+
+                    <ul class="advantages-list">
+                        <li>
+                            <i class="fa-solid fa-circle-check text-primary"></i>
+                            <div>
+                                <h4>Resiliencia Offline</h4>
+                                <p>El monitoreo y envío de SMS sigue funcionando incluso cuando el servicio de internet
+                                    en tu hogar falla durante un apagón general.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check text-primary"></i>
+                            <div>
+                                <h4>Licencia Local Segura</h4>
+                                <p>Una vez validada tu licencia, el chequeo se realiza localmente, evitando fallos por
+                                    falta de conexión y respetando tu privacidad.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-circle-check text-primary"></i>
+                            <div>
+                                <h4>Bajo Consumo</h4>
+                                <p>Optimizada al máximo (Clean Architecture y MVVM) para que no drene la batería de tu
+                                    dispositivo de monitoreo.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="advantages-gfx">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>100%</h3>
+                        <p>Seguro y Privado</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                        <h3>24/7</h3>
+                        <p>Monitoreo Continuo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contacto">
+            <div class="section-title">
+                <h2>Contacto y Soporte</h2>
+                <p>¿Interesado en la aplicación? Escríbenos para obtener una licencia comercial.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Hablemos de tu caso</h3>
+                    <p>CorteDeLuz es ideal tanto para cuidar electrodomésticos en casa como para monitorear servidores,
+                        heladeras comerciales o procesos industriales.</p>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>WhatsApp Directo</h4>
+                            <p><a href="https://api.whatsapp.com/send?phone=5493416620491" target="_blank">+54 9 341
+                                    662-0491</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Correo Electrónico</h4>
+                            <p>Te responderemos a la brevedad</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="https://formspree.io/f/myzgwqan" method="POST">
+                    <!-- Replace the action URL with your actual Formspree endpoint -->
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre o empresa">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="¿En qué te podemos ayudar?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        Enviar Consulta <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-bolt"></i> CorteDeLuz
+            </div>
+            <p class="footer-text">© 2026 CorteDeLuz (PowerMonitor). Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatApp Floating Button -->
+    <a href="https://api.whatsapp.com/send?phone=5493416620491&text=Hola!%20Me%20interesa%20la%20app%20CorteDeLuz."
+        class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
